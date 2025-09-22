@@ -5,16 +5,16 @@ import os
 import json
 from dotenv import load_dotenv
 
-header = {
-    "api_key": st.secrets["auth_token"],
-    "content-type": "appilation/json"
-}
+# header = {
+#     "api_key": st.secrets["auth_token"],
+#     "content-type": "appilation/json"
+# }
 
 # Load API key
 load_dotenv()
 
 # LangChain looks for GOOGLE_API_KEY automatically
-# api_key = os.getenv("GOOGLE_API_KEY")
+api_key = os.getenv("GOOGLE_API_KEY")
 
 if not api_key:
     raise ValueError(
@@ -90,6 +90,7 @@ def main():
 # python main
 if __name__ == "__main__":
     main()
+
 
 
 
