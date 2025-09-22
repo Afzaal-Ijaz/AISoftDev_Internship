@@ -5,6 +5,11 @@ import os
 import json
 from dotenv import load_dotenv
 
+header = {
+    "autherization": st.secrets["auth_token"]
+    "content-type": "appilation/json"
+}
+
 # Load API key
 load_dotenv()
 
@@ -85,3 +90,4 @@ def main():
 # python main
 if __name__ == "__main__":
     main()
+
