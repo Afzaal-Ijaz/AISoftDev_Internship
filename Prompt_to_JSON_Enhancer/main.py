@@ -16,9 +16,9 @@ load_dotenv()
 # LangChain looks for GOOGLE_API_KEY automatically
 # api_key = os.getenv("GOOGLE_API_KEY")
 
-if not api_key:
-    raise ValueError(
-        "API key not found! Please set GOOGLE_API_KEY in your .env file")
+# if not api_key:
+#     raise ValueError(
+#         "API key not found! Please set GOOGLE_API_KEY in your .env file")
 
 
 # # Initialize model
@@ -90,6 +90,7 @@ def main():
 # python main
 if __name__ == "__main__":
     main()
+
 
 
 
