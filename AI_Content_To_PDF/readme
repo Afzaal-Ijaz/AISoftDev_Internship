@@ -1,1 +1,38 @@
+## 📄 AI Content-to-PDF
 
+This project is an AI-powered web application that allows users to extract content from any webpage, process it using LLMs (Gemini via LangChain), and export the results into a clean, well-formatted PDF file.
+It is built with Streamlit for the frontend and integrates LangChain to handle prompts and interaction with the LLM.
+
+🚀 Features
+
+🌐 Webpage Content Extraction – User enters a URL, and the app fetches the webpage content.
+🤖 AI Processing with Gemini – Summarizes or refines the extracted text using LLMs.
+📑 PDF Export – Generates a professional, formatted PDF from the processed content.
+⚡ Interactive Streamlit UI – Simple and user-friendly interface for input and download.
+
+🛠️ Tech Stack
+
+Python 3.10+
+Streamlit – Frontend framework
+LangChain – LLM orchestration
+Gemini (Google Generative AI) – Large Language Model
+ReportLab – PDF generation
+BeautifulSoup / Requests – Webpage scraping
+
+📂 Repository Structure
+ 📦 ai-content-to-pdf
+ ┣ 📄 app.py
+ ┣ 📄 pdf_generator.py 
+ ┣ 📄 requirements.txt
+ ┗ 📄 README.md
+
+🎯 Learning Outcomes
+Learned how to integrate LangChain with Gemini for intelligent text processing.
+Explored web scraping techniques for structured content extraction.
+Automated PDF generation with proper formatting.
+Improved skills in building end-to-end AI-powered applications.
+
+👨‍💻 Author
+Afzaal Ijaz
+
+⚡ AI Content-to-PDF bridges the gap between raw online content and professional documentation — making knowledge extraction smarter and easier.
