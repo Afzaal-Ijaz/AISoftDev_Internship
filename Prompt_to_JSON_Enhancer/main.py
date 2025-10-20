@@ -17,7 +17,7 @@ if not api_key:
 
 
 # # Initialize model
-model1 = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key=api_key)
+model1 = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key=api_key)
 
 # Making template
 template = """
@@ -85,6 +85,7 @@ def main():
 # python main
 if __name__ == "__main__":
     main()
+
 
 
 
