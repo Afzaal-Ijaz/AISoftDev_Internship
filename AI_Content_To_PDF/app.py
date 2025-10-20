@@ -30,7 +30,7 @@ if not api_key:
 
 
 # # Initialize model
-model = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key=api_key)
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key=api_key)
 
 template = '''You are expert in data extraction,data summarization and data validation checker from web_pages.
 I give you {data} that I have extract from web-page  Summarize it and expand content with additional context.
@@ -282,3 +282,4 @@ def main():
 if __name__ == "__main__":
     main()           
     
+
